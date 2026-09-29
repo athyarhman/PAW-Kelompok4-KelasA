@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420"
+     role="img" aria-label="Ilustrasi chatbot memandu alur sales funnel menuju transaksi berhasil">
+  <defs>
+    <linearGradient id="gBrand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#2b6cb0"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="gFunnel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#63b3ed"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="gCoin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#f6c453"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0b2545" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- ===== bentuk latar dekoratif ===== -->
+  <circle cx="78"  cy="72"  r="46" fill="#ffffff" opacity="0.10"/>
+  <circle cx="452" cy="352" r="62" fill="#ffffff" opacity="0.10"/>
+  <circle cx="470" cy="86"  r="14" fill="#ffffff" opacity="0.22"/>
+  <circle cx="66"  cy="360" r="9"  fill="#ffffff" opacity="0.22"/>
+
+  <!-- ===== kartu jendela chat ===== -->
+  <g filter="url(#soft)">
+    <rect x="46" y="58" width="286" height="212" rx="18" fill="#ffffff"/>
+  </g>
+  <!-- title bar -->
+  <rect x="46" y="58" width="286" height="40" rx="18" fill="#1a365d"/>
+  <rect x="46" y="80" width="286" height="18" fill="#1a365d"/>
+  <circle cx="70"  cy="78" r="5" fill="#f87171"/>
+  <circle cx="86"  cy="78" r="5" fill="#fbbf24"/>
+  <circle cx="102" cy="78" r="5" fill="#34d399"/>
+  <rect x="128" y="71" width="150" height="14" rx="7" fill="#ffffff" opacity="0.28"/>
+
+  <!-- avatar bot -->
+  <circle cx="80" cy="136" r="16" fill="url(#gBrand)"/>
+  <rect x="74" y="130" width="12" height="9" rx="2" fill="#ffffff"/>
+  <circle cx="77.5" cy="134.5" r="1.6" fill="#1a365d"/>
+  <circle cx="82.5" cy="134.5" r="1.6" fill="#1a365d"/>
+  <rect x="76" y="141" width="8" height="1.8" rx="0.9" fill="#ffffff"/>
+
+  <!-- balon chat bot -->
+  <rect x="104" y="120" width="196" height="30" rx="12" fill="#ebf4ff"/>
+  <rect x="118" y="131" width="120" height="8" rx="4" fill="#94b8e0"/>
+  <rect x="118" y="142" width="80" height="0" rx="0" fill="none"/>
+
+  <!-- balon chat user -->
+  <rect x="132" y="166" width="168" height="30" rx="12" fill="url(#gBrand)"/>
+  <rect x="148" y="177" width="100" height="8" rx="4" fill="#ffffff" opacity="0.85"/>
+
+  <!-- indikator mengetik -->
+  <rect x="104" y="212" width="76" height="30" rx="12" fill="#f1f5f9"/>
+  <circle cx="124" cy="227" r="4" fill="#a0aec0"/>
+  <circle cx="138" cy="227" r="4" fill="#a0aec0"/>
+  <circle cx="152" cy="227" r="4" fill="#a0aec0"/>
+
+  <!-- ===== corong / funnel penjualan ===== -->
+  <path d="M300 96 H470 L412 190 V196 L446 214 A10 10 0 0 1 451 222 V300 A12 12 0 0 1 439 312 H331
+           A12 12 0 0 1 319 300 V222 A10 10 0 0 1 324 214 L358 196 V190 Z"
+        fill="url(#gFunnel)" opacity="0.92"/>
+
+  <!-- band pembatas funnel -->
+  <line x1="352" y1="150" x2="418" y2="150" stroke="#ffffff" stroke-opacity="0.45" stroke-width="3"/>
+  <line x1="330" y1="238" x2="440" y2="238" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3"/>
+
+  <!-- ===== koin masuk ke funnel ===== -->
+  <g>
+    <ellipse cx="332" cy="80" rx="17" ry="17" fill="url(#gCoin)" stroke="#e0a938" stroke-width="2"/>
+    <text x="332" y="87" font-family="Segoe UI, Arial, sans-serif" font-size="18"
+          font-weight="700" fill="#8a5a00" text-anchor="middle">$</text>
+  </g>
+  <g opacity="0.85">
+    <ellipse cx="378" cy="58" rx="12" ry="12" fill="url(#gCoin)" stroke="#e0a938" stroke-width="2"/>
+    <text x="378" y="63" font-family="Segoe UI, Arial, sans-serif" font-size="13"
+          font-weight="700" fill="#8a5a00" text-anchor="middle">$</text>
+  </g>
+  <g opacity="0.7">
+    <ellipse cx="416" cy="78" rx="9" ry="9" fill="url(#gCoin)" stroke="#e0a938" stroke-width="2"/>
+  </g>
+
+  <!-- ===== hasil: transaksi berhasil ===== -->
+  <g filter="url(#soft)">
+    <circle cx="385" cy="352" r="34" fill="#ffffff"/>
+  </g>
+  <circle cx="385" cy="352" r="34" fill="none" stroke="url(#gBrand)" stroke-width="4"/>
+  <path d="M370 352 l11 12 l20 -24" fill="none" stroke="#0d9488" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- label kecil -->
+  <rect x="326" y="396" width="118" height="18" rx="9" fill="#0d9488" opacity="0.9"/>
+  <rect x="342" y="402" width="86" height="6" rx="3" fill="#ffffff" opacity="0.9"/>
+</svg>
